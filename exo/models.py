@@ -620,6 +620,30 @@ model_cards: ModelCardCollection = {
       "MLXDynamicShardInferenceEngine": "Qwen/Qwen3-0.6B",
     },
   ),
+  ## Qwen3 Coder
+  "qwen3-coder-30b-a3b-4bit": ModelCard(
+    pretty_name="Qwen3 Coder 30B (A3B, 6-bit)",
+    layers=48,
+    repo={
+      "MLXDynamicShardInferenceEngine": "lmstudio-community/Qwen3-Coder-30B-A3B-Instruct-MLX-6bit",
+     },
+  ),
+  "gemma-3-270m-it-bf16": ModelCard(
+    pretty_name="Gemma3 270M (IT, BF16)",
+    layers=30,
+    repo={
+      "MLXDynamicShardInferenceEngine": "mlx-community/gemma-3-270m-it-bf16",
+    },
+    default_stop_sequences=["<end_of_turn>"]
+  ),
+  "gemma-3-27b-it-8bit": ModelCard(
+    pretty_name="Gemma3 27B (IT, 8-bit)",
+    layers=46,
+    repo={
+      "MLXDynamicShardInferenceEngine": "mlx-community/gemma-3-27b-it-8bit",
+    },
+    default_stop_sequences=["<end_of_turn>"]
+  ),
   ### kimi
   "kimi-k2-instruct-4bit": ModelCard(
     pretty_name="Kimi K2 Instruct 1T 32B (4-bit)",
