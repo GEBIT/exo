@@ -1,12 +1,3 @@
-> [!IMPORTANT]  
-> This is not an offically maintained fork of [Exo](https://github.com/exo-explore/exo).
-> <br> The sole reason for this fork appears to be stalled maintenance of the project.
-> <br> PRs are welcome in the hopes that this fork remains stable and will be eventually merged [upstream](https://github.com/exo-explore/exo/pull/825).
-> <br> No claim of ownership or future claim of stewardship is being made.
-> <br> No warranty is provided for this fork; use at your own risk.
-
-___
-
 <div align="center">
 
 <picture>
@@ -16,20 +7,19 @@ ___
 
 exo: Run your own AI cluster at home with everyday devices. Maintained by [exo labs](https://x.com/exolabs).
 
+## GEBIT Service Installation
 
-<h3>
+The dev machine starts this as a service.
 
-[Discord](https://discord.gg/EUnjGpsmWw) | [Telegram](https://t.me/+Kh-KqHTzFYg3MGNk) | [X](https://x.com/exolabs)
+The following aliases are configured:
+```bash
+exo-load
+exo-start
+exo-stop
+exo-status
+```
 
-</h3>
-
-[![GitHub Repo stars](https://img.shields.io/github/stars/exo-explore/exo)](https://github.com/exo-explore/exo/stargazers)
-[![Tests](https://dl.circleci.com/status-badge/img/circleci/TrkofJDoGzdQAeL6yVHKsg/4i5hJuafuwZYZQxbRAWS71/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/circleci/TrkofJDoGzdQAeL6yVHKsg/4i5hJuafuwZYZQxbRAWS71/tree/main)
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-
-<a href="https://trendshift.io/repositories/11849" target="_blank"><img src="https://trendshift.io/api/badge/repositories/11849" alt="exo-explore%2Fexo | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
-
-</div>
+(Open the ~/.zshrc file for more information)
 
 ---
 
